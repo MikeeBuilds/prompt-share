@@ -39,7 +39,7 @@ const Nav = () => {
 
             <Link href="/profile">
               <Image
-                src="/assets/images/logo.svg"
+                src="/public/images/logo.svg"
                 alt="Profile"
                 width={37}
                 height={37}

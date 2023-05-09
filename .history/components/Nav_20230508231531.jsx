@@ -39,11 +39,12 @@ const Nav = () => {
 
             <Link href="/profile">
               <Image
-                src="/assets/images/logo.svg"
+                src="/assets/images/profile.svg"
                 alt="Profile"
                 width={37}
                 height={37}
                 className='rounded-full'
+                
               />
             </Link>
           </div>
