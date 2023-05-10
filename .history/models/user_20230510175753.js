@@ -1,0 +1,1 @@
+import { Scema, model, models } from 'mongoos'
