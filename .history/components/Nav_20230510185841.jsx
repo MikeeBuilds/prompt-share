@@ -40,7 +40,6 @@ const Nav = () => {
       </Link>
 
 
-
       {/* Desktop Navigation*/}
       <div className='sm:flex hidden '>
          {session?.user ? (
@@ -131,7 +130,7 @@ const Nav = () => {
             onClick={() => signIn(provider.id)}
             className='black_btn'
             >
-              Sign in with {provider.name}
+              Sign in with 
             </button>
           ))}
           </>

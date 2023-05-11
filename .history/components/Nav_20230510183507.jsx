@@ -39,9 +39,7 @@ const Nav = () => {
         </p>
       </Link>
 
-
-
-      {/* Desktop Navigation*/}
+      {/* Mobile Navigation*/}
       <div className='sm:flex hidden '>
          {session?.user ? (
           <div className='flex gap-3 md:gap-5'>
@@ -74,7 +72,7 @@ const Nav = () => {
             onClick={() => signIn(provider.id)}
             className='black_btn'
             >
-              Sign in with 
+              Sign in with {}
             </button>
           ))}
           </>
@@ -131,7 +129,7 @@ const Nav = () => {
             onClick={() => signIn(provider.id)}
             className='black_btn'
             >
-              Sign in with {provider.name}
+              Sign in with 
             </button>
           ))}
           </>

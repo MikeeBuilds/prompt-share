@@ -15,13 +15,13 @@ const Nav = () => {
   const [toggleDropdown, setToggleDropdown] = useState(false);
 
   useEffect(() => {
-    const setUpProviders = async () => {
+    const  = async () => {
       const response = await getProviders();
 
       setProviders(response);
     }
 
-    setUpProviders();
+    ();
   }, [])
 
 
@@ -131,7 +131,7 @@ const Nav = () => {
             onClick={() => signIn(provider.id)}
             className='black_btn'
             >
-              Sign in with {provider.name}
+              Sign in with 
             </button>
           ))}
           </>

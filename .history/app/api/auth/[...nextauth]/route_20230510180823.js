@@ -24,7 +24,7 @@ const handler = NextAuth({
         return session;
     },
 
-
+    
     async signIn({ profile }) {
         try {
             await connectToDB();
@@ -52,5 +52,3 @@ const handler = NextAuth({
         }
     }
 })
-
-export default handler;
